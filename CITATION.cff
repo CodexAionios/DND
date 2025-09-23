@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it."
+title: "Neuroscience for Ocular Health — Research Repo"
+authors:
+  - family-names: "Mejía"
+    given-names: "Juan Carlos"
+    orcid: "0000-0000-0000-0000"
+keywords:
+  - ocular neuroscience
+  - digital neuroplasticity
+  - pupillometry
+  - blue light
+  - gamma oscillations
+  - RSU metric
+license: MIT
+version: "0.1.0"
+date-released: "2025-09-23"

@@ -1,0 +1,13 @@
+name: AVA_RSU_v1
+rsu_target: 0.45
+block_seconds: 90
+rest_seconds: 30
+max_blocks: 10
+sensors:
+- webcam_pupil
+- blink_cv
+- optional_eeg
+- optional_emg
+exposure_limits:
+  session_rsu_max: 0.65
+  daily_sessions_max: 2

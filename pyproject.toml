@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuro_ocular_health"
+version = "0.1.0"
+description = "Analysis toolkit for the Neuroscience for Ocular Health project"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "pydantic",
+    "pyyaml",
+    "typer",
+]
+
+[tool.pytest.ini_options]
+addopts = "-q"
